@@ -1,0 +1,40 @@
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info
+/dist/
+/build/
+/docs/_build/
+*.egg
+*.swp
+.tox/
+.coverage
+.cache
+.pytest_cache/
+*.pyc
+.idea/
+.vscode/
+*.bak
+*.tmp
+*~
+# Jupyter Notebook
+.ipynb_checkpoints
+# PyCharm
+.idea/
+# VSCode
+.vscode/
+# Spyder project settings
+.spyderproject
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+# LLM Fine-tuning specific
+/models/
+/datasets/
+/tokenizers/
+/checkpoints/
+/training_logs/
+/experiments*

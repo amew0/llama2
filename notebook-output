@@ -1,0 +1,561 @@
+[I 2024-04-01 11:58:38.533 ServerApp] Extension package jupyter_lsp took 0.1248s to import
+[I 2024-04-01 11:58:39.002 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-04-01 11:58:39.008 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-04-01 11:58:39.013 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-04-01 11:58:39.019 ServerApp] notebook | extension was successfully linked.
+[I 2024-04-01 11:58:39.702 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-04-01 11:58:39.810 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-04-01 11:58:39.813 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-04-01 11:58:39.815 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-04-01 11:58:39.854 LabApp] JupyterLab extension loaded from /home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyterlab
+[I 2024-04-01 11:58:39.854 LabApp] JupyterLab application directory is /home/kunet.ae/100053678/.conda/envs/llama2/share/jupyter/lab
+[I 2024-04-01 11:58:39.857 LabApp] Extension Manager is 'pypi'.
+[I 2024-04-01 11:58:39.892 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-04-01 11:58:39.897 ServerApp] notebook | extension was successfully loaded.
+[I 2024-04-01 11:58:39.898 ServerApp] Serving notebooks from local directory: /home/kunet.ae/100053678/llama2
+[I 2024-04-01 11:58:39.898 ServerApp] Jupyter Server 2.13.0 is running at:
+[I 2024-04-01 11:58:39.898 ServerApp] http://gpu-11-1:8888/tree?token=ff4e3cfe1663dbbcd7a4c88658ba28aab04de5dea5defdb0
+[I 2024-04-01 11:58:39.898 ServerApp]     http://127.0.0.1:8888/tree?token=ff4e3cfe1663dbbcd7a4c88658ba28aab04de5dea5defdb0
+[I 2024-04-01 11:58:39.898 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-04-01 11:58:39.914 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/kunet.ae/100053678/.local/share/jupyter/runtime/jpserver-49163-open.html
+    Or copy and paste one of these URLs:
+        http://gpu-11-1:8888/tree?token=ff4e3cfe1663dbbcd7a4c88658ba28aab04de5dea5defdb0
+        http://127.0.0.1:8888/tree?token=ff4e3cfe1663dbbcd7a4c88658ba28aab04de5dea5defdb0
+[I 2024-04-01 11:58:39.953 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-04-01 11:59:56.533 ServerApp] 404 GET /hub/api (@10.126.104.2) 45.84ms referer=None
+[I 2024-04-01 11:59:56.537 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.51ms
+[W 2024-04-01 11:59:59.317 ServerApp] 404 GET /hub/api (@10.126.104.2) 1.15ms referer=None
+[I 2024-04-01 11:59:59.319 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.40ms
+[W 2024-04-01 12:00:06.167 ServerApp] 404 GET /hub/api (@10.126.104.2) 1.15ms referer=None
+[I 2024-04-01 12:00:06.169 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.40ms
+[I 2024-04-01 12:00:06.227 ServerApp] Kernel started: 4e56823c-f1d2-475c-97c1-1cf65385348a
+[I 2024-04-01 12:00:07.180 ServerApp] Connecting to kernel 4e56823c-f1d2-475c-97c1-1cf65385348a.
+[W 2024-04-01 12:00:07.359 ServerApp] 404 GET /hub/api (@10.126.104.2) 4.28ms referer=None
+[I 2024-04-01 12:00:07.368 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 3.27ms
+[W 2024-04-01 12:00:07.375 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:07.394 ServerApp] 403 GET /api/kernelspecs?1711958407343 (@10.126.104.2) 20.69ms referer=None
+[W 2024-04-01 12:00:07.395 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:07.395 ServerApp] 403 GET /api/kernels?1711958407343 (@10.126.104.2) 21.03ms referer=None
+[W 2024-04-01 12:00:07.395 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:07.396 ServerApp] 403 GET /api/kernels?1711958407345 (@10.126.104.2) 21.50ms referer=None
+[W 2024-04-01 12:00:07.396 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:07.396 ServerApp] 403 GET /api/sessions?1711958407345 (@10.126.104.2) 21.78ms referer=None
+[W 2024-04-01 12:00:07.412 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:07.412 ServerApp] 403 GET /api/kernelspecs?1711958407369 (@10.126.104.2) 0.63ms referer=None
+[I 2024-04-01 12:00:08.393 ServerApp] Starting buffering for 4e56823c-f1d2-475c-97c1-1cf65385348a:0b6cdddb-46e0-49bd-83d8-7d84a66bc6c4
+[W 2024-04-01 12:00:10.439 ServerApp] 404 GET /hub/api (@10.126.104.2) 2.10ms referer=None
+[I 2024-04-01 12:00:10.444 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.72ms
+[W 2024-04-01 12:00:10.453 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:10.453 ServerApp] 403 GET /api/sessions?1711958410421 (@10.126.104.2) 1.05ms referer=None
+[W 2024-04-01 12:00:10.454 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:10.454 ServerApp] 403 GET /api/kernelspecs?1711958410418 (@10.126.104.2) 1.55ms referer=None
+[W 2024-04-01 12:00:10.454 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:10.455 ServerApp] 403 GET /api/kernels?1711958410419 (@10.126.104.2) 1.91ms referer=None
+[W 2024-04-01 12:00:10.455 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:10.455 ServerApp] 403 GET /api/kernels?1711958410420 (@10.126.104.2) 1.69ms referer=None
+[W 2024-04-01 12:00:10.458 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:10.458 ServerApp] 403 GET /api/kernelspecs?1711958410428 (@10.126.104.2) 0.57ms referer=None
+[W 2024-04-01 12:00:20.299 ServerApp] 404 GET /hub/api (@10.126.104.2) 1.14ms referer=None
+[I 2024-04-01 12:00:20.301 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.41ms
+[I 2024-04-01 12:00:20.344 ServerApp] Kernel started: 0288dee1-2478-4fbd-bf2b-188401d799b9
+[I 2024-04-01 12:00:20.994 ServerApp] Connecting to kernel 0288dee1-2478-4fbd-bf2b-188401d799b9.
+[W 2024-04-01 12:00:21.154 ServerApp] 404 GET /hub/api (@10.126.104.2) 6.88ms referer=None
+[I 2024-04-01 12:00:21.163 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.93ms
+[W 2024-04-01 12:00:21.170 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:21.180 ServerApp] 403 GET /api/kernelspecs?1711958421136 (@10.126.104.2) 11.34ms referer=None
+[W 2024-04-01 12:00:21.181 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:21.181 ServerApp] 403 GET /api/kernels?1711958421137 (@10.126.104.2) 11.68ms referer=None
+[W 2024-04-01 12:00:21.182 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:21.182 ServerApp] 403 GET /api/kernels?1711958421138 (@10.126.104.2) 0.75ms referer=None
+[W 2024-04-01 12:00:21.182 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:21.182 ServerApp] 403 GET /api/sessions?1711958421139 (@10.126.104.2) 1.06ms referer=None
+[W 2024-04-01 12:00:21.186 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:21.187 ServerApp] 403 GET /api/kernelspecs?1711958421154 (@10.126.104.2) 0.59ms referer=None
+[W 2024-04-01 12:00:22.385 ServerApp] 404 GET /hub/api (@10.126.104.2) 0.87ms referer=None
+[I 2024-04-01 12:00:22.436 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 41.29ms
+[W 2024-04-01 12:00:22.457 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:22.458 ServerApp] 403 GET /api/kernelspecs?1711958422411 (@10.126.104.2) 1.50ms referer=None
+[W 2024-04-01 12:00:22.458 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:22.458 ServerApp] 403 GET /api/kernels?1711958422411 (@10.126.104.2) 1.70ms referer=None
+[W 2024-04-01 12:00:22.458 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:22.459 ServerApp] 403 GET /api/kernels?1711958422412 (@10.126.104.2) 1.95ms referer=None
+[W 2024-04-01 12:00:22.459 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:22.459 ServerApp] 403 GET /api/sessions?1711958422413 (@10.126.104.2) 2.22ms referer=None
+[W 2024-04-01 12:00:22.462 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:00:22.462 ServerApp] 403 GET /api/kernelspecs?1711958422431 (@10.126.104.2) 0.62ms referer=None
+[W 2024-04-01 12:00:22.646 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@10.126.104.2) 0.98ms referer=None
+[I 2024-04-01 12:04:58.796 ServerApp] Kernel restarted: 0288dee1-2478-4fbd-bf2b-188401d799b9
+[I 2024-04-01 12:04:58.799 ServerApp] Starting buffering for 0288dee1-2478-4fbd-bf2b-188401d799b9:0811d581-d34c-4b80-9aea-9ba54e248170
+[I 2024-04-01 12:04:58.804 ServerApp] Connecting to kernel 0288dee1-2478-4fbd-bf2b-188401d799b9.
+[I 2024-04-01 12:04:58.804 ServerApp] Restoring connection for 0288dee1-2478-4fbd-bf2b-188401d799b9:0811d581-d34c-4b80-9aea-9ba54e248170
+[W 2024-04-01 12:17:26.897 ServerApp] 404 GET /hub/api (@10.126.104.2) 3.38ms referer=None
+[W 2024-04-01 12:17:26.898 ServerApp] 404 GET /hub/api (@10.126.104.2) 3.86ms referer=None
+[I 2024-04-01 12:17:26.930 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.38ms
+[I 2024-04-01 12:17:26.931 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.33ms
+[W 2024-04-01 12:17:26.981 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:17:26.983 ServerApp] 403 GET /api/sessions?1711959446949 (@10.126.104.2) 4.15ms referer=None
+[W 2024-04-01 12:17:26.990 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:17:26.990 ServerApp] 403 GET /api/kernelspecs?1711959446944 (@10.126.104.2) 6.00ms referer=None
+[W 2024-04-01 12:17:26.991 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:17:26.991 ServerApp] 403 GET /api/kernels?1711959446945 (@10.126.104.2) 6.36ms referer=None
+[W 2024-04-01 12:17:26.991 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:17:26.991 ServerApp] 403 GET /api/kernels?1711959446948 (@10.126.104.2) 6.73ms referer=None
+[W 2024-04-01 12:17:27.111 ServerApp] 404 GET /hub/api (@10.126.104.2) 0.76ms referer=None
+[I 2024-04-01 12:17:27.114 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.36ms
+[I 2024-04-01 12:17:27.135 ServerApp] Connecting to kernel 0288dee1-2478-4fbd-bf2b-188401d799b9.
+[W 2024-04-01 12:17:27.272 ServerApp] 404 GET /hub/api (@10.126.104.2) 3.11ms referer=None
+[I 2024-04-01 12:17:27.293 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 2.31ms
+[W 2024-04-01 12:17:27.303 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:17:27.304 ServerApp] 403 GET /api/kernelspecs?1711959447266 (@10.126.104.2) 1.40ms referer=None
+[W 2024-04-01 12:17:27.304 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:17:27.304 ServerApp] 403 GET /api/kernels?1711959447267 (@10.126.104.2) 1.64ms referer=None
+[W 2024-04-01 12:17:27.304 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:17:27.305 ServerApp] 403 GET /api/kernels?1711959447268 (@10.126.104.2) 1.94ms referer=None
+[W 2024-04-01 12:17:27.305 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:17:27.305 ServerApp] 403 GET /api/sessions?1711959447269 (@10.126.104.2) 2.20ms referer=None
+[W 2024-04-01 12:17:27.830 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@10.126.104.2) 0.80ms referer=None
+[W 2024-04-01 12:19:28.827 ServerApp] 404 GET /hub/api (@10.126.104.2) 2.81ms referer=None
+[I 2024-04-01 12:19:28.832 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.39ms
+[W 2024-04-01 12:19:28.842 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:28.843 ServerApp] 403 GET /api/kernelspecs?1711959568806 (@10.126.104.2) 1.41ms referer=None
+[W 2024-04-01 12:19:28.843 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:28.844 ServerApp] 403 GET /api/kernels?1711959568807 (@10.126.104.2) 0.62ms referer=None
+[W 2024-04-01 12:19:28.844 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:28.845 ServerApp] 403 GET /api/kernels?1711959568808 (@10.126.104.2) 0.78ms referer=None
+[W 2024-04-01 12:19:28.845 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:28.845 ServerApp] 403 GET /api/sessions?1711959568809 (@10.126.104.2) 1.09ms referer=None
+[W 2024-04-01 12:19:28.848 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:28.848 ServerApp] 403 GET /api/kernelspecs?1711959568816 (@10.126.104.2) 0.57ms referer=None
+[W 2024-04-01 12:19:37.619 ServerApp] 404 GET /hub/api (@10.126.104.2) 1.14ms referer=None
+[I 2024-04-01 12:19:37.622 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.42ms
+[I 2024-04-01 12:19:37.669 ServerApp] Kernel started: 8ddd88d8-2876-427e-82b7-6e127a512108
+[I 2024-04-01 12:19:38.499 ServerApp] Connecting to kernel 8ddd88d8-2876-427e-82b7-6e127a512108.
+[W 2024-04-01 12:19:38.671 ServerApp] 404 GET /hub/api (@10.126.104.2) 7.15ms referer=None
+[I 2024-04-01 12:19:38.680 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.54ms
+[W 2024-04-01 12:19:38.698 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:38.699 ServerApp] 403 GET /api/kernelspecs?1711959578654 (@10.126.104.2) 1.09ms referer=None
+[W 2024-04-01 12:19:38.699 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:38.699 ServerApp] 403 GET /api/kernels?1711959578655 (@10.126.104.2) 1.42ms referer=None
+[W 2024-04-01 12:19:38.699 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:38.700 ServerApp] 403 GET /api/kernels?1711959578656 (@10.126.104.2) 1.81ms referer=None
+[W 2024-04-01 12:19:38.700 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:38.700 ServerApp] 403 GET /api/sessions?1711959578656 (@10.126.104.2) 2.16ms referer=None
+[W 2024-04-01 12:19:38.703 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:19:38.704 ServerApp] 403 GET /api/kernelspecs?1711959578672 (@10.126.104.2) 0.62ms referer=None
+[W 2024-04-01 12:36:28.010 ServerApp] 404 GET /hub/api (@10.126.104.2) 3.57ms referer=None
+[W 2024-04-01 12:36:28.044 ServerApp] 404 GET /hub/api (@10.126.104.2) 0.83ms referer=None
+[I 2024-04-01 12:36:28.044 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.36ms
+[I 2024-04-01 12:36:28.105 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.37ms
+[W 2024-04-01 12:36:28.142 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.143 ServerApp] 403 GET /api/kernelspecs?1711960588088 (@10.126.104.2) 1.71ms referer=None
+[W 2024-04-01 12:36:28.145 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.145 ServerApp] 403 GET /api/kernels?1711960588089 (@10.126.104.2) 1.23ms referer=None
+[W 2024-04-01 12:36:28.145 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.145 ServerApp] 403 GET /api/kernels?1711960588093 (@10.126.104.2) 1.56ms referer=None
+[W 2024-04-01 12:36:28.146 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.146 ServerApp] 403 GET /api/sessions?1711960588094 (@10.126.104.2) 1.90ms referer=None
+[W 2024-04-01 12:36:28.167 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.167 ServerApp] 403 GET /api/kernelspecs?1711960588117 (@10.126.104.2) 0.58ms referer=None
+[W 2024-04-01 12:36:28.235 ServerApp] 404 GET /hub/api (@10.126.104.2) 0.75ms referer=None
+[I 2024-04-01 12:36:28.240 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 0.36ms
+[I 2024-04-01 12:36:28.287 ServerApp] Connecting to kernel 8ddd88d8-2876-427e-82b7-6e127a512108.
+[W 2024-04-01 12:36:28.437 ServerApp] 404 GET /hub/api (@10.126.104.2) 0.86ms referer=None
+[I 2024-04-01 12:36:28.467 JupyterNotebookApp] 302 GET /tree? (@10.126.104.2) 2.31ms
+[W 2024-04-01 12:36:28.478 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.478 ServerApp] 403 GET /api/sessions?1711960588444 (@10.126.104.2) 0.67ms referer=None
+[W 2024-04-01 12:36:28.479 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.479 ServerApp] 403 GET /api/kernelspecs?1711960588441 (@10.126.104.2) 0.91ms referer=None
+[W 2024-04-01 12:36:28.479 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.479 ServerApp] 403 GET /api/kernels?1711960588442 (@10.126.104.2) 1.23ms referer=None
+[W 2024-04-01 12:36:28.480 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.480 ServerApp] 403 GET /api/kernels?1711960588443 (@10.126.104.2) 1.57ms referer=None
+[W 2024-04-01 12:36:28.484 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/kunet.ae/100053678/.conda/envs/llama2/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 782, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-04-01 12:36:28.484 ServerApp] 403 GET /api/kernelspecs?1711960588452 (@10.126.104.2) 0.57ms referer=None
+[W 2024-04-01 12:36:29.007 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@10.126.104.2) 0.78ms referer=None
